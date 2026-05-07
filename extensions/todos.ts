@@ -39,7 +39,7 @@ import {
     type Theme,
 } from "@earendil-works/pi-coding-agent";
 import { StringEnum } from "@earendil-works/pi-ai";
-import { Type } from "@sinclair/typebox";
+import { Type } from "typebox";
 import path from "node:path";
 import fs from "node:fs/promises";
 import { existsSync, readFileSync, readdirSync } from "node:fs";
@@ -2123,7 +2123,7 @@ export default function todosExtension(pi: ExtensionAPI) {
                 return new Text(text, 0, 0);
             }
 
-            if (!details.todo) {
+            if (!("todo" in details)) {
                 const text = result.content[0];
                 return new Text(text?.type === "text" ? text.text : "", 0, 0);
             }

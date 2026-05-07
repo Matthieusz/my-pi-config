@@ -6,5 +6,8 @@
   "theme": "modern-dark",
   "terminal": {
     "showTerminalProgress": true
-  }
+  },
+  "packages": [
+    "npm:@ff-labs/pi-fff"
+  ]
 }

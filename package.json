@@ -12,10 +12,11 @@
     "type": "commonjs",
     "packageManager": "pnpm@10.33.0",
     "dependencies": {
-        "@ff-labs/fff-node": "^0.7.1",
         "@earendil-works/pi-ai": "^0.74.0",
         "@earendil-works/pi-coding-agent": "^0.74.0",
         "@earendil-works/pi-tui": "^0.74.0",
+        "@ff-labs/fff-node": "^0.7.1",
+        "@sinclair/typebox": "^0.34.49",
         "diff": "^9.0.0",
         "typebox": "^1.1.33"
     },
