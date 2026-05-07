@@ -2,7 +2,7 @@ import path from "node:path";
 import type {
     ExtensionAPI,
     ExtensionContext,
-} from "@mariozechner/pi-coding-agent";
+} from "@earendil-works/pi-coding-agent";
 
 const RESET = "\x1b[0m";
 const BOLD = "\x1b[1m";

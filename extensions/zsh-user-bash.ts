@@ -2,7 +2,7 @@ import { basename } from "node:path";
 import {
     createLocalBashOperations,
     type ExtensionAPI,
-} from "@mariozechner/pi-coding-agent";
+} from "@earendil-works/pi-coding-agent";
 
 function shellQuote(value: string) {
     return `'${value.replaceAll("'", `'\\''`)}'`;
