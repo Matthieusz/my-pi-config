@@ -1,18 +1,17 @@
 {
-  "lastChangelogVersion": "0.79.1",
-  "defaultProvider": "opencode-go",
-  "defaultModel": "deepseek-v4-pro",
-  "defaultThinkingLevel": "high",
-  "theme": "modern-dark",
-  "terminal": {
-    "showTerminalProgress": true
-  },
-  "packages": [
-    "npm:@ff-labs/pi-fff",
-    "npm:pi-code-previews",
-    {
-      "source": "npm:@plannotator/pi-extension",
-      "skills": []
-    }
-  ]
+    "lastChangelogVersion": "0.79.8",
+    "defaultProvider": "openai-codex",
+    "defaultModel": "gpt-5.5",
+    "defaultThinkingLevel": "low",
+    "theme": "modern-dark",
+    "terminal": {
+        "showTerminalProgress": true
+    },
+    "packages": [
+        "npm:@ff-labs/pi-fff",
+        "npm:pi-code-previews",
+        "npm:@plannotator/pi-extension",
+        "npm:pi-web-access",
+        "npm:context-mode"
+    ]
 }
