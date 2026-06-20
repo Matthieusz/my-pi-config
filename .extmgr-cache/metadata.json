@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "packages": {
+    "pi-web-access": {
+      "name": "pi-web-access",
+      "size": 6852655,
+      "timestamp": 1781949867385,
+      "fieldTimestamps": {
+        "size": 1781949867385
+      }
+    },
+    "context-mode": {
+      "name": "context-mode",
+      "size": 4141506,
+      "timestamp": 1781949867392,
+      "fieldTimestamps": {
+        "size": 1781949867392
+      }
+    },
+    "pi-code-previews": {
+      "name": "pi-code-previews",
+      "size": 472902,
+      "timestamp": 1781949867541,
+      "fieldTimestamps": {
+        "size": 1781949867541
+      }
+    },
+    "@ff-labs/pi-fff": {
+      "name": "@ff-labs/pi-fff",
+      "size": 45491,
+      "timestamp": 1781949867757,
+      "fieldTimestamps": {
+        "size": 1781949867757
+      }
+    },
+    "@plannotator/pi-extension": {
+      "name": "@plannotator/pi-extension",
+      "size": 37251053,
+      "timestamp": 1781949867770,
+      "fieldTimestamps": {
+        "size": 1781949867770
+      }
+    },
+    "pi-extmgr": {
+      "name": "pi-extmgr",
+      "size": 296812,
+      "timestamp": 1781949868250,
+      "fieldTimestamps": {
+        "size": 1781949868250
+      }
+    }
+  }
+}
