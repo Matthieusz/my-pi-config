@@ -1,17 +1,16 @@
 {
-  "lastChangelogVersion": "0.79.8",
-  "defaultProvider": "openai-codex",
-  "defaultModel": "gpt-5.5",
-  "defaultThinkingLevel": "high",
-  "theme": "modern-dark",
-  "terminal": {
-    "showTerminalProgress": true
-  },
-  "packages": [
-    "npm:@ff-labs/pi-fff",
-    "npm:pi-code-previews",
-    "npm:@plannotator/pi-extension",
-    "npm:pi-web-access",
-    "npm:pi-extmgr"
-  ]
+    "lastChangelogVersion": "0.80.2",
+    "defaultProvider": "openai-codex",
+    "defaultModel": "gpt-5.5",
+    "defaultThinkingLevel": "high",
+    "theme": "modern-dark",
+    "terminal": {
+        "showTerminalProgress": true
+    },
+    "packages": [
+        "npm:@ff-labs/pi-fff",
+        "npm:pi-code-previews",
+        "npm:@plannotator/pi-extension",
+        "npm:pi-web-access"
+    ]
 }
