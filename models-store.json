@@ -235,7 +235,7 @@
         }
       }
     ],
-    "checkedAt": 1784672438349,
+    "checkedAt": 1784711900033,
     "lastModified": 1784661216000
   },
   "openrouter": {
@@ -6736,7 +6736,7 @@
         }
       }
     ],
-    "checkedAt": 1784672438297,
+    "checkedAt": 1784711899999,
     "lastModified": 1784661219000
   },
   "opencode-go": {
@@ -7128,7 +7128,7 @@
         "maxTokens": 65536
       }
     ],
-    "checkedAt": 1784672438291,
+    "checkedAt": 1784711900044,
     "lastModified": 1784661218000
   },
   "github-copilot": {
@@ -8059,7 +8059,7 @@
         }
       }
     ],
-    "checkedAt": 1784672439710,
+    "checkedAt": 1784711907218,
     "lastModified": 1784661201000
   }
 }

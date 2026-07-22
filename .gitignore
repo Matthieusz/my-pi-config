@@ -2,3 +2,4 @@ node_modules
 bin
 sessions
 auth.json
+opencode-go-usage.json
