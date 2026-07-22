@@ -235,8 +235,8 @@
         }
       }
     ],
-    "checkedAt": 1784711900033,
-    "lastModified": 1784661216000
+    "checkedAt": 1784739531819,
+    "lastModified": 1784724573000
   },
   "openrouter": {
     "models": [
@@ -494,14 +494,14 @@
         },
         "contextWindow": 1000000,
         "maxTokens": 128000,
+        "compat": {
+          "thinkingFormat": "openrouter",
+          "cacheControlFormat": "anthropic"
+        },
         "thinkingLevelMap": {
           "off": null,
           "xhigh": "xhigh",
           "max": "max"
-        },
-        "compat": {
-          "thinkingFormat": "openrouter",
-          "cacheControlFormat": "anthropic"
         }
       },
       {
@@ -619,12 +619,12 @@
         },
         "contextWindow": 1000000,
         "maxTokens": 128000,
-        "thinkingLevelMap": {
-          "max": "max"
-        },
         "compat": {
           "thinkingFormat": "openrouter",
           "cacheControlFormat": "anthropic"
+        },
+        "thinkingLevelMap": {
+          "max": "max"
         }
       },
       {
@@ -646,13 +646,13 @@
         },
         "contextWindow": 1000000,
         "maxTokens": 128000,
-        "thinkingLevelMap": {
-          "xhigh": "xhigh",
-          "max": "max"
-        },
         "compat": {
           "thinkingFormat": "openrouter",
           "cacheControlFormat": "anthropic"
+        },
+        "thinkingLevelMap": {
+          "xhigh": "xhigh",
+          "max": "max"
         }
       },
       {
@@ -674,13 +674,13 @@
         },
         "contextWindow": 1000000,
         "maxTokens": 128000,
-        "thinkingLevelMap": {
-          "xhigh": "xhigh",
-          "max": "max"
-        },
         "compat": {
           "thinkingFormat": "openrouter",
           "cacheControlFormat": "anthropic"
+        },
+        "thinkingLevelMap": {
+          "xhigh": "xhigh",
+          "max": "max"
         }
       },
       {
@@ -702,13 +702,13 @@
         },
         "contextWindow": 1000000,
         "maxTokens": 128000,
-        "thinkingLevelMap": {
-          "xhigh": "xhigh",
-          "max": "max"
-        },
         "compat": {
           "thinkingFormat": "openrouter",
           "cacheControlFormat": "anthropic"
+        },
+        "thinkingLevelMap": {
+          "xhigh": "xhigh",
+          "max": "max"
         }
       },
       {
@@ -730,13 +730,13 @@
         },
         "contextWindow": 1000000,
         "maxTokens": 128000,
-        "thinkingLevelMap": {
-          "xhigh": "xhigh",
-          "max": "max"
-        },
         "compat": {
           "thinkingFormat": "openrouter",
           "cacheControlFormat": "anthropic"
+        },
+        "thinkingLevelMap": {
+          "xhigh": "xhigh",
+          "max": "max"
         }
       },
       {
@@ -806,12 +806,12 @@
         },
         "contextWindow": 1000000,
         "maxTokens": 128000,
-        "thinkingLevelMap": {
-          "max": "max"
-        },
         "compat": {
           "thinkingFormat": "openrouter",
           "cacheControlFormat": "anthropic"
+        },
+        "thinkingLevelMap": {
+          "max": "max"
         }
       },
       {
@@ -833,13 +833,13 @@
         },
         "contextWindow": 1000000,
         "maxTokens": 128000,
-        "thinkingLevelMap": {
-          "xhigh": "xhigh",
-          "max": "max"
-        },
         "compat": {
           "thinkingFormat": "openrouter",
           "cacheControlFormat": "anthropic"
+        },
+        "thinkingLevelMap": {
+          "xhigh": "xhigh",
+          "max": "max"
         }
       },
       {
@@ -1272,9 +1272,9 @@
           "text"
         ],
         "cost": {
-          "input": 0.0938,
-          "output": 0.1876,
-          "cacheRead": 0.01876,
+          "input": 0.098,
+          "output": 0.196,
+          "cacheRead": 0.0196,
           "cacheWrite": 0
         },
         "contextWindow": 1048575,
@@ -1615,7 +1615,7 @@
       },
       {
         "id": "google/gemini-3.5-flash-lite",
-        "name": "Google: Gemini 3.5 Flash-Lite",
+        "name": "Google: Gemini 3.5 Flash Lite",
         "api": "openai-completions",
         "baseUrl": "https://openrouter.ai/api/v1",
         "provider": "openrouter",
@@ -1846,12 +1846,12 @@
         },
         "contextWindow": 128000,
         "maxTokens": 50000,
-        "thinkingLevelMap": {
-          "off": null
-        },
         "compat": {
           "supportsDeveloperRole": false,
           "thinkingFormat": "openrouter"
+        },
+        "thinkingLevelMap": {
+          "off": null
         }
       },
       {
@@ -3707,11 +3707,11 @@
         },
         "contextWindow": 400000,
         "maxTokens": 128000,
-        "thinkingLevelMap": {
-          "xhigh": "xhigh"
-        },
         "compat": {
           "thinkingFormat": "openrouter"
+        },
+        "thinkingLevelMap": {
+          "xhigh": "xhigh"
         }
       },
       {
@@ -3733,11 +3733,11 @@
         },
         "contextWindow": 128000,
         "maxTokens": 16384,
-        "thinkingLevelMap": {
-          "xhigh": "xhigh"
-        },
         "compat": {
           "thinkingFormat": "openrouter"
+        },
+        "thinkingLevelMap": {
+          "xhigh": "xhigh"
         }
       },
       {
@@ -3759,11 +3759,11 @@
         },
         "contextWindow": 400000,
         "maxTokens": 128000,
-        "thinkingLevelMap": {
-          "xhigh": "xhigh"
-        },
         "compat": {
           "thinkingFormat": "openrouter"
+        },
+        "thinkingLevelMap": {
+          "xhigh": "xhigh"
         }
       },
       {
@@ -3785,11 +3785,11 @@
         },
         "contextWindow": 400000,
         "maxTokens": 128000,
-        "thinkingLevelMap": {
-          "xhigh": "xhigh"
-        },
         "compat": {
           "thinkingFormat": "openrouter"
+        },
+        "thinkingLevelMap": {
+          "xhigh": "xhigh"
         }
       },
       {
@@ -3811,11 +3811,11 @@
         },
         "contextWindow": 128000,
         "maxTokens": 16384,
-        "thinkingLevelMap": {
-          "xhigh": "xhigh"
-        },
         "compat": {
           "thinkingFormat": "openrouter"
+        },
+        "thinkingLevelMap": {
+          "xhigh": "xhigh"
         }
       },
       {
@@ -3837,11 +3837,11 @@
         },
         "contextWindow": 400000,
         "maxTokens": 128000,
-        "thinkingLevelMap": {
-          "xhigh": "xhigh"
-        },
         "compat": {
           "thinkingFormat": "openrouter"
+        },
+        "thinkingLevelMap": {
+          "xhigh": "xhigh"
         }
       },
       {
@@ -3863,11 +3863,11 @@
         },
         "contextWindow": 1050000,
         "maxTokens": 128000,
-        "thinkingLevelMap": {
-          "xhigh": "xhigh"
-        },
         "compat": {
           "thinkingFormat": "openrouter"
+        },
+        "thinkingLevelMap": {
+          "xhigh": "xhigh"
         }
       },
       {
@@ -3889,11 +3889,11 @@
         },
         "contextWindow": 400000,
         "maxTokens": 128000,
-        "thinkingLevelMap": {
-          "xhigh": "xhigh"
-        },
         "compat": {
           "thinkingFormat": "openrouter"
+        },
+        "thinkingLevelMap": {
+          "xhigh": "xhigh"
         }
       },
       {
@@ -3915,11 +3915,11 @@
         },
         "contextWindow": 400000,
         "maxTokens": 128000,
-        "thinkingLevelMap": {
-          "xhigh": "xhigh"
-        },
         "compat": {
           "thinkingFormat": "openrouter"
+        },
+        "thinkingLevelMap": {
+          "xhigh": "xhigh"
         }
       },
       {
@@ -3941,11 +3941,11 @@
         },
         "contextWindow": 1050000,
         "maxTokens": 128000,
-        "thinkingLevelMap": {
-          "xhigh": "xhigh"
-        },
         "compat": {
           "thinkingFormat": "openrouter"
+        },
+        "thinkingLevelMap": {
+          "xhigh": "xhigh"
         }
       },
       {
@@ -3967,11 +3967,11 @@
         },
         "contextWindow": 1050000,
         "maxTokens": 128000,
-        "thinkingLevelMap": {
-          "xhigh": "xhigh"
-        },
         "compat": {
           "thinkingFormat": "openrouter"
+        },
+        "thinkingLevelMap": {
+          "xhigh": "xhigh"
         }
       },
       {
@@ -3993,14 +3993,14 @@
         },
         "contextWindow": 1050000,
         "maxTokens": 128000,
+        "compat": {
+          "thinkingFormat": "openrouter"
+        },
         "thinkingLevelMap": {
           "xhigh": "xhigh",
           "off": null,
           "minimal": null,
           "low": null
-        },
-        "compat": {
-          "thinkingFormat": "openrouter"
         }
       },
       {
@@ -4022,12 +4022,12 @@
         },
         "contextWindow": 1050000,
         "maxTokens": 128000,
+        "compat": {
+          "thinkingFormat": "openrouter"
+        },
         "thinkingLevelMap": {
           "xhigh": "xhigh",
           "max": "max"
-        },
-        "compat": {
-          "thinkingFormat": "openrouter"
         }
       },
       {
@@ -4049,12 +4049,12 @@
         },
         "contextWindow": 1050000,
         "maxTokens": 128000,
+        "compat": {
+          "thinkingFormat": "openrouter"
+        },
         "thinkingLevelMap": {
           "xhigh": "xhigh",
           "max": "max"
-        },
-        "compat": {
-          "thinkingFormat": "openrouter"
         }
       },
       {
@@ -4076,12 +4076,12 @@
         },
         "contextWindow": 1050000,
         "maxTokens": 128000,
+        "compat": {
+          "thinkingFormat": "openrouter"
+        },
         "thinkingLevelMap": {
           "xhigh": "xhigh",
           "max": "max"
-        },
-        "compat": {
-          "thinkingFormat": "openrouter"
         }
       },
       {
@@ -4103,12 +4103,12 @@
         },
         "contextWindow": 1050000,
         "maxTokens": 128000,
+        "compat": {
+          "thinkingFormat": "openrouter"
+        },
         "thinkingLevelMap": {
           "xhigh": "xhigh",
           "max": "max"
-        },
-        "compat": {
-          "thinkingFormat": "openrouter"
         }
       },
       {
@@ -4130,12 +4130,12 @@
         },
         "contextWindow": 1050000,
         "maxTokens": 128000,
+        "compat": {
+          "thinkingFormat": "openrouter"
+        },
         "thinkingLevelMap": {
           "xhigh": "xhigh",
           "max": "max"
-        },
-        "compat": {
-          "thinkingFormat": "openrouter"
         }
       },
       {
@@ -4157,12 +4157,12 @@
         },
         "contextWindow": 1050000,
         "maxTokens": 128000,
+        "compat": {
+          "thinkingFormat": "openrouter"
+        },
         "thinkingLevelMap": {
           "xhigh": "xhigh",
           "max": "max"
-        },
-        "compat": {
-          "thinkingFormat": "openrouter"
         }
       },
       {
@@ -5252,13 +5252,13 @@
           "text"
         ],
         "cost": {
-          "input": 0.0975,
-          "output": 0.78,
-          "cacheRead": 0,
+          "input": 0.1,
+          "output": 1.1,
+          "cacheRead": 0.07,
           "cacheWrite": 0
         },
-        "contextWindow": 131072,
-        "maxTokens": 32768,
+        "contextWindow": 262144,
+        "maxTokens": 262144,
         "compat": {
           "supportsDeveloperRole": false,
           "thinkingFormat": "openrouter"
@@ -6456,19 +6456,19 @@
           "text"
         ],
         "cost": {
-          "input": 0.791,
-          "output": 2.486,
-          "cacheRead": 0.1469,
+          "input": 0.8218,
+          "output": 2.5828,
+          "cacheRead": 0.15262,
           "cacheWrite": 0
         },
         "contextWindow": 1048576,
         "maxTokens": 131072,
-        "thinkingLevelMap": {
-          "xhigh": "xhigh"
-        },
         "compat": {
           "supportsDeveloperRole": false,
           "thinkingFormat": "openrouter"
+        },
+        "thinkingLevelMap": {
+          "xhigh": "xhigh"
         }
       },
       {
@@ -6516,7 +6516,8 @@
         "maxTokens": 128000,
         "compat": {
           "supportsDeveloperRole": false,
-          "thinkingFormat": "openrouter"
+          "thinkingFormat": "openrouter",
+          "cacheControlFormat": "anthropic"
         }
       },
       {
@@ -6540,7 +6541,8 @@
         "maxTokens": 64000,
         "compat": {
           "supportsDeveloperRole": false,
-          "thinkingFormat": "openrouter"
+          "thinkingFormat": "openrouter",
+          "cacheControlFormat": "anthropic"
         }
       },
       {
@@ -6564,7 +6566,8 @@
         "maxTokens": 128000,
         "compat": {
           "supportsDeveloperRole": false,
-          "thinkingFormat": "openrouter"
+          "thinkingFormat": "openrouter",
+          "cacheControlFormat": "anthropic"
         }
       },
       {
@@ -6588,7 +6591,8 @@
         "maxTokens": 128000,
         "compat": {
           "supportsDeveloperRole": false,
-          "thinkingFormat": "openrouter"
+          "thinkingFormat": "openrouter",
+          "cacheControlFormat": "anthropic"
         }
       },
       {
@@ -6736,8 +6740,8 @@
         }
       }
     ],
-    "checkedAt": 1784711899999,
-    "lastModified": 1784661219000
+    "checkedAt": 1784739531787,
+    "lastModified": 1784724577000
   },
   "opencode-go": {
     "models": [
@@ -6860,6 +6864,7 @@
           "low": null,
           "medium": null,
           "high": "high",
+          "xhigh": null,
           "max": "max"
         }
       },
@@ -6884,7 +6889,16 @@
           "sessionAffinityFormat": "openai-nosession"
         },
         "contextWindow": 500000,
-        "maxTokens": 500000
+        "maxTokens": 500000,
+        "thinkingLevelMap": {
+          "off": null,
+          "minimal": null,
+          "low": "low",
+          "medium": "medium",
+          "high": "high",
+          "xhigh": null,
+          "max": null
+        }
       },
       {
         "id": "kimi-k2.6",
@@ -6967,7 +6981,16 @@
           "maxTokensField": "max_tokens"
         },
         "contextWindow": 1048576,
-        "maxTokens": 131072
+        "maxTokens": 131072,
+        "thinkingLevelMap": {
+          "off": null,
+          "minimal": null,
+          "low": null,
+          "medium": null,
+          "high": null,
+          "xhigh": null,
+          "max": "max"
+        }
       },
       {
         "id": "mimo-v2.5",
@@ -7128,8 +7151,8 @@
         "maxTokens": 65536
       }
     ],
-    "checkedAt": 1784711900044,
-    "lastModified": 1784661218000
+    "checkedAt": 1784739531795,
+    "lastModified": 1784724576000
   },
   "github-copilot": {
     "models": [
@@ -7641,7 +7664,12 @@
         },
         "thinkingLevelMap": {
           "off": null,
-          "minimal": "low"
+          "minimal": "low",
+          "low": "low",
+          "medium": "medium",
+          "high": "high",
+          "xhigh": null,
+          "max": null
         }
       },
       {
@@ -7734,7 +7762,11 @@
         "thinkingLevelMap": {
           "off": null,
           "minimal": "low",
-          "xhigh": "xhigh"
+          "low": "low",
+          "medium": "medium",
+          "high": "high",
+          "xhigh": "xhigh",
+          "max": null
         }
       },
       {
@@ -7774,7 +7806,11 @@
         "thinkingLevelMap": {
           "off": null,
           "minimal": "low",
-          "xhigh": "xhigh"
+          "low": "low",
+          "medium": "medium",
+          "high": "high",
+          "xhigh": "xhigh",
+          "max": null
         }
       },
       {
@@ -7805,7 +7841,11 @@
         "thinkingLevelMap": {
           "off": null,
           "minimal": "low",
-          "xhigh": "xhigh"
+          "low": "low",
+          "medium": "medium",
+          "high": "high",
+          "xhigh": "xhigh",
+          "max": null
         }
       },
       {
@@ -7876,7 +7916,11 @@
         "thinkingLevelMap": {
           "off": null,
           "minimal": "low",
-          "xhigh": "xhigh"
+          "low": "low",
+          "medium": "medium",
+          "high": "high",
+          "xhigh": "xhigh",
+          "max": null
         }
       },
       {
@@ -7916,6 +7960,9 @@
         "thinkingLevelMap": {
           "off": null,
           "minimal": "low",
+          "low": "low",
+          "medium": "medium",
+          "high": "high",
           "xhigh": "xhigh",
           "max": "max"
         }
@@ -7957,6 +8004,9 @@
         "thinkingLevelMap": {
           "off": null,
           "minimal": "low",
+          "low": "low",
+          "medium": "medium",
+          "high": "high",
           "xhigh": "xhigh",
           "max": "max"
         }
@@ -7998,6 +8048,9 @@
         "thinkingLevelMap": {
           "off": null,
           "minimal": "low",
+          "low": "low",
+          "medium": "medium",
+          "high": "high",
           "xhigh": "xhigh",
           "max": "max"
         }
@@ -8056,10 +8109,19 @@
           "Editor-Version": "vscode/1.107.0",
           "Editor-Plugin-Version": "copilot-chat/0.35.0",
           "Copilot-Integration-Id": "vscode-chat"
+        },
+        "thinkingLevelMap": {
+          "off": null,
+          "minimal": null,
+          "low": "low",
+          "medium": "medium",
+          "high": "high",
+          "xhigh": null,
+          "max": null
         }
       }
     ],
-    "checkedAt": 1784711907218,
-    "lastModified": 1784661201000
+    "checkedAt": 1784739533118,
+    "lastModified": 1784724556000
   }
 }
