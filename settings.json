@@ -2,7 +2,7 @@
   "lastChangelogVersion": "0.81.1",
   "defaultProvider": "openai-codex",
   "defaultModel": "gpt-5.6-sol",
-  "defaultThinkingLevel": "low",
+  "defaultThinkingLevel": "high",
   "theme": "catppuccin-macchiato",
   "terminal": {
     "showTerminalProgress": true
@@ -12,6 +12,8 @@
     "npm:pi-code-previews",
     "npm:@plannotator/pi-extension",
     "npm:pi-web-access",
-    "npm:@pi-kaush/pi-inline-skill-identifier"
+    "npm:@pi-kaush/pi-inline-skill-identifier",
+    "npm:@ogulcancelik/pi-codex-compaction",
+    "npm:@ogulcancelik/pi-minimal-footer"
   ]
 }
